@@ -12,6 +12,8 @@ build/
 # ========== Project Folders ==========
 data/
 models/
+data/sms_spam.tsv
+!data/sms_spam.tsv.dvc
 
 # ========== DVC ==========
 # *.dvc
