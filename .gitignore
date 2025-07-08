@@ -14,10 +14,10 @@ data/
 models/
 
 # ========== DVC ==========
-*.dvc
-!.gitignore
-.dvc/cache/
-.dvc/tmp/
+# *.dvc
+# !.gitignore
+# .dvc/cache/
+# .dvc/tmp/
 
 # ========== Jupyter ==========
 .ipynb_checkpoints/
