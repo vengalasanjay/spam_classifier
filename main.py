@@ -1,10 +1,10 @@
+import mlflow
 from src.train import train_and_save_model
 from src.predict import predict_message
 
-# Step 1: Train and save model
-train_and_save_model()
+# Enable MLflow autologging manually if desired
+mlflow.set_experiment("Spam Detection Predictions")
 
-# Step 2: Predict on new messages
 print("\n🔍 Custom Predictions:")
 messages = [
     "Your account has been temporarily suspended. Verify your login immediately.",
@@ -19,5 +19,8 @@ messages = [
     "Can we reschedule our dentist appointment for next week?"
 ]
 
-for i, msg in enumerate(messages, 1):
-    print(f"{i}. '{msg}' → {predict_message(msg)}")
+with mlflow.start_run():
+    for i, msg in enumerate(messages, 1):
+        label, confidence = predict_message(msg)
+        mlflow.log_metric(f"Confidence_Message_{i}", confidence)
+        print(f"{i}. '{msg}' → {label} (Confidence: {confidence}%)")

@@ -14,7 +14,7 @@ data/
 models/
 data/sms_spam.tsv
 !data/sms_spam.tsv.dvc
-
+mlruns_store/
 # ========== DVC ==========
 # *.dvc
 # !.gitignore

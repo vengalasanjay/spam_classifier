@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sanjay%20Vengala/Desktop/ML_POC_01/spam_classifier/mlruns/693113536109785939/f65460a6134d4ac48e0d0fecb49d5bf5/artifacts
+end_time: 1752052383709
+entry_point_name: ''
+experiment_id: '693113536109785939'
+lifecycle_stage: active
+run_id: f65460a6134d4ac48e0d0fecb49d5bf5
+run_name: suave-squid-164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752052383374
+status: 3
+tags: []
+user_id: Sanjay Vengala

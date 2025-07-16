@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Sanjay%20Vengala/Desktop/ML_POC_01/spam_classifier/mlruns/693113536109785939/062b2b51f3de4e27be467caa6708a0ae/artifacts
+end_time: 1752052873461
+entry_point_name: ''
+experiment_id: '693113536109785939'
+lifecycle_stage: active
+run_id: 062b2b51f3de4e27be467caa6708a0ae
+run_name: able-robin-171
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752052872876
+status: 3
+tags: []
+user_id: Sanjay Vengala
